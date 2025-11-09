@@ -11,13 +11,14 @@
         <div class="left-col">
             <div class="logo-wrapper">
                 <img src="./media/odin-lined.png" alt="The Odin Project logo" class="odin-logo">
+                <p>ODIN</p>
             </div>
                 <p class="credit">Photo by <a href="https://unsplash.com/photos/red-wooden-cross-on-gray-concrete-pathway-between-green-trees-during-daytime-kaoHI0iHJPM" target="_blank" rel="nofollow">Syuhei Inoue</a> on <a href="https://unsplash.com" target="_blank" rel="nofollow">Unsplash</a></p>
         </div>
         <div class="right-col">
             <div class="desc-wrapper">
                 <p>This is not a real online service! You know you need something like this in your life
-                    to help you realise your deepest dreams.<br>
+                    to help you realise your deepest dreams.
                     Sign up <em>now</em> to get started.
                 </p>
                 <p>You <em>know</em> you want to.</p>
@@ -51,17 +52,17 @@
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" name="password" id="password">
+                                <input type="password" name="password" id="password" required minlength="8">
                             </div>
                             <div class="form-group">
                                 <label for="passwordConfirm">Confirm password</label>
-                                <input type="password" name="passwordConfirm" id="passwordConfirm">
+                                <input type="password" name="passwordConfirm" id="passwordConfirm" required minlength="8">
                             </div>
                         </div>
                     </div>
                     <div class="button-wrapper">
-                        <input type="submit" value="Create Account">
-                        <p>Already have an acccunt? <a href="#">Log in</a></p>
+                        <input type="submit" value="Create Account" class="btn">
+                        <p>Already have an account? <a href="#">Log in</a></p>
                     </div>
                 </form>
             </div>
